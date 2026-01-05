@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { ArrowRight, Heart, Users, Sparkles, Crown } from 'lucide-react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import aboutImg from "../assets/BB_Spring_exp4.png"
+import aboutVid from "../assets/BB_IntroVid.mp4"
 import expImg from "../assets/BB_soiree_3.png"
 
 const About = () => {
@@ -68,11 +68,15 @@ const About = () => {
               </p>
             </div>
             <div className="aspect-[4/5] overflow-hidden">
-              <img
-                src={aboutImg}
-                alt="Brunch & Blom community gathering"
+              <video
+                src={aboutVid}
+                aria-label="Brunch & Blom community gathering"
                 className="w-full h-full object-cover"
-                loading="lazy"
+                preload="metadata"
+                autoPlay
+                loop
+                muted
+                playsInline
               />
             </div>
           </section>
