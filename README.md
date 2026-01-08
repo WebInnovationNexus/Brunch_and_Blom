@@ -129,6 +129,3 @@ Website: https://www.webinnovationnexus.com
 
 Built with Vite, React, TypeScript, Tailwind CSS and shadcn-ui component primitives.
 
----
-
-If you'd like me to add a `LICENSE`, CI pipeline, or deployment workflow (e.g., Vercel/GitHub Actions), tell me which one and I can add it.
