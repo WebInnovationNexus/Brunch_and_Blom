@@ -63,7 +63,7 @@ const About = () => {
               <p className="text-muted-foreground font-light leading-relaxed">
                 We believe that the best conversations happen around a beautifully set 
                 table, with carefully crafted cocktails in hand and soulful music in the 
-                air. Each Brunch & Bloom experience is designed to slow down time and 
+                air. Each Brunch & Blom experience is designed to slow down time and 
                 create memories that last long after the last glass is raised.
               </p>
             </div>
@@ -142,7 +142,7 @@ const About = () => {
           {/* CTA Section */}
           <section className="text-center bg-secondary py-16 px-6">
             <h2 className="font-display text-3xl md:text-4xl font-light tracking-brand uppercase mb-4">
-              Join The Bloom Family
+              Join The Blomas Family
             </h2>
             <p className="text-muted-foreground font-light max-w-xl mx-auto mb-8">
               Be part of a community that celebrates life's beautiful moments together.
